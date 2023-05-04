@@ -7,7 +7,8 @@
     "@betterer/betterer": "^5.4.0",
     "@betterer/cli": "^5.4.0",
     "@betterer/eslint": "^5.4.0",
-    "typescript": "^5.0.4"
+    "@betterer/regexp": "^5.4.0",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "betterer": "betterer"
