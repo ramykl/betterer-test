@@ -1,0 +1,15 @@
+{
+  "name": "betterer-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "betterer",
+  "devDependencies": {
+    "@betterer/betterer": "^5.4.0",
+    "@betterer/cli": "^5.4.0",
+    "@betterer/eslint": "^5.4.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "betterer": "betterer"
+  }
+}
