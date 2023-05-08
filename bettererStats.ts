@@ -2,12 +2,12 @@ import { betterer } from '@betterer/betterer';
 import { camelCase } from 'lodash';
 
 async function main() {
-  const options = {
-    // configPaths: ['./.betterer.ts'],
-    resultsPath: './.betterer.results'
-  }
-  const results = await betterer.results(options);
-  // const results = await betterer.results();
+  // const options = {
+  //   // configPaths: ['./.betterer.ts'],
+  //   resultsPath: './.betterer.results'
+  // }
+  // const results = await betterer.results(options);
+  const results = await betterer.results();
 
   console.log(results)
   let resultString = ''
